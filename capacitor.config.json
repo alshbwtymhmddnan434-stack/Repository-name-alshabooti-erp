@@ -1,0 +1,10 @@
+{
+  "appId": "ye.alshabooti.accounting",
+  "appName": "الشبوطي المحاسبي",
+  "webDir": "frontend",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https",
+    "cleartext": false
+  }
+}

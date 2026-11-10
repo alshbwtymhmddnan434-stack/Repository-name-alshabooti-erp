@@ -1,0 +1,6 @@
+node_modules/
+android/
+.env
+*.jks
+*.keystore
+backend/node_modules/

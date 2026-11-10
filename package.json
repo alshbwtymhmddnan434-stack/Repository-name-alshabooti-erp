@@ -1,0 +1,19 @@
+{
+  "name": "alshabooti-accounting-app",
+  "version": "1.6.0",
+  "private": true,
+  "description": "Android/PWA shell for Alshabooti Accounting ERP",
+  "scripts": {
+    "cap:sync": "cap sync android",
+    "cap:open": "cap open android",
+    "android:debug": "cd android && ./gradlew assembleDebug",
+    "android:release": "cd android && ./gradlew assembleRelease"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.4.3",
+    "@capacitor/core": "^7.4.3"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.4.3"
+  }
+}
